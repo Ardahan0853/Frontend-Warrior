@@ -1,0 +1,228 @@
+body{
+
+  font-family: 'VT323', monospace !important;
+}
+/* This is body of index.html*/
+
+.everything{
+  background-image: url("../images/cave.png");
+  height: 1100px;
+  background-size: 100% 100%;
+}
+.top{
+  text-align: right;
+}.top h6{
+  position: absolute;
+  padding: 20px 100px;
+  color: #F9CEEE;
+  font-size: 2rem;
+}.top a{
+  position: relative;
+  padding-right:  86px;
+  top: 20px;
+  color: #F9CEEE;
+  font-size: 2rem;
+}.top h2{
+  padding-top: 20px;
+}
+/* This is top of the screen */
+.middle{
+ width: 700px;
+ height: 500px;
+ position: relative;
+ top: 200px;
+ margin: 0  15% 0 15%;
+ text-align: left;
+}
+.middle h1{
+  color: #F9EBC8;
+  font-size: 4rem;
+  position: relative;
+  right: 30px;
+}
+.middle h2{
+  color: #F9EBC8;
+  padding-top: 20px;
+}
+.middle2{
+
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  margin: auto 10% 80% auto;
+  position: relative;
+  bottom: 200px;
+  right: 200px;
+}.story{
+  border: 8px solid black;
+  color: black;
+  background-color: #F9F3EE;
+  margin-bottom: 20px;
+  width: 200px;
+}.middle2-2{
+  background-image: url("../images/turtle.png");
+  border-radius: 10%;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("../images/turtle.png"););
+}.after-an{
+  display: none;
+  opacity: 0;
+  color: white;
+}
+
+
+/*This is the middle of screen*/
+
+.bottom{
+  background-image: url("../images/Challenge.png");
+  border-top: solid 10px #000000;
+  height: 900px;
+  text-align: center;
+  background-color: #6A67CE;
+  padding-top: 100px;
+}.bottom h3{
+  padding-top: 10px;
+  color: #F7DAD9;
+}.text{
+  padding-top: 100px;
+  text-align: left;
+}
+.codingsword{
+  color: transparent;
+            text-align: center;
+            animation: effect 0.2s linear infinite;
+            \
+        }
+
+        @keyframes effect {
+            0% {
+                background: linear-gradient(
+                        #947EC3, #EEF3D2);
+                -webkit-background-clip: text;
+            }
+
+            100% {
+                background: linear-gradient(
+                        #B689C0, #947EC3);
+                -webkit-background-clip: text;
+            }
+        }
+
+/* this is the middle of screen*/
+
+
+
+.bottom-bottom{
+  background-image: url('../images/arkaplan.png');
+  text-align: center;
+  padding-top: 20rem;
+  background-color: #FAEEE7;
+  border-top: 10px solid #000000;
+}
+.sword{
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin: -60px 0 0 -60px;
+}
+.sword2{
+
+
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(360deg); } }
+/* this is animation */
+
+
+
+.yazilar1{
+  font-size: 2rem;
+  position: relative;
+  right: 9rem;
+  bottom: 3rem;
+
+}
+.yazilar2{
+
+  font-size: 2rem;
+  position:relative;
+  left: 16rem;
+}
+.yazilar3{
+  font-size: 1.5rem;
+  position: relative;
+  right: 10rem;
+
+}
+.yazilar4{
+  font-size: 2rem;
+  position: relative;
+  bottom: 20rem;
+  left: 10rem;
+
+}
+.yazilar5{
+  font-size: 2rem;
+  position: relative;
+  bottom: 25rem;\
+
+}
+.yazilar6{
+  font-size: 3rem;
+  position: relative;
+  bottom: 5rem;
+}
+.yazilar7{
+  font-size: 2.5rem;
+  position: relative;
+  bottom: 23rem;
+  right: 10rem;
+}
+.yazilar8{
+  font-size: 3rem;
+  position: relative;
+  bottom: 18rem;
+  left :  12rem;
+}
+.offbtn{
+  position: relative;
+  bottom: 12rem;
+}.btn1{
+  border: 7px solid #000;
+  bottom: 1rem;
+  height: 35px;
+  width: 100px;
+}.offbtn h6{
+  font-size: 1.5rem;
+  color: white;
+}.buttonfont{
+  margin: auto;
+}
+.deepbottom{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-color: black;
+}.elementsOfBottom{
+  margin-top: 50px;
+  padding: 30px 40px;
+}.elementsOfBottom h6{
+  color: white;
+}.fa-linkedin{
+  padding-right: 20px;
+}.fa-paper-plane{
+  padding-bottom:20px; 
+}
+/* these ones randomly gloving text */
+
+
+
+.explain{
+  color: #7900FF;
+}
